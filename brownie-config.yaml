@@ -4,7 +4,10 @@ compiler:
   solc:
     remappings:
       - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.1.0'
-      
+
+netowrks:
+  default: development
+
 dotenv: .env
 wallets:
   from_key: ${PRIVATE_KEY}
